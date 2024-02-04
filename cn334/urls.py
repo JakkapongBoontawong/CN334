@@ -27,4 +27,5 @@ urlpatterns = [
     path("product/", ecom_views.Product_view),
     path("checkout/", ecom_views.Checkout_view),
     path("contact/", ecom_views.Contact_view),
+    path("favorite/", ecom_views.favorite_view),
 ]

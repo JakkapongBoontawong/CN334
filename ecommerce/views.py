@@ -31,3 +31,7 @@ def Checkout_view(request):
 def Contact_view(request):
     
     return render(request, 'contactPage.html')
+
+def favorite_view(request):
+    
+    return render(request, 'favorite.html')
